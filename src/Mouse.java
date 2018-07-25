@@ -1,3 +1,5 @@
+
+//INHERITANCE FROM "Animal' (extends)
 public class Mouse extends Animal {
 
     public Mouse() {
@@ -14,6 +16,8 @@ public class Mouse extends Animal {
         return "A mouse eats...";
     }
 
+
+    //POLYMORPHISM
     public String steal() {
         return "A mouse 'steals'...";
     }

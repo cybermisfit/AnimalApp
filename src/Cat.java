@@ -1,6 +1,8 @@
 /*
  * All Cats are Animals but all Animals are not Cats
  */
+
+//INHERITANCE FROM "Animal' (extends)
 public class Cat extends Animal {
 
     public Cat() {
@@ -18,6 +20,7 @@ public class Cat extends Animal {
         return "A cat eats...";
     }
 
+    //POLYMORPHISM
     public String purr() {
         return "purrr...";
     }

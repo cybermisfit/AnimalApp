@@ -1,6 +1,8 @@
 /*
  * All Birds are Animals but all Animals are not Birds
  */
+
+//INHERITANCE FROM "Animal' (extends)
 public class Bird extends Animal {
     public Bird() {
         //super();
